@@ -1,19 +1,22 @@
 'use strict';
 
 
-requirejs.config({
-    paths: {}
-});
+requirejs.config( {
+    paths: {
+
+        jquery: 'vendor/jquery/jquery.min'
+    }
+} );
 
 
-require([/* Dependencies */], function () {
+require( [ 'jquery' ], function ( $ ) {
 
     var app = {
         initialize: function () {
-            // Your code here
+            console.log( $ );
         }
     };
 
     app.initialize();
 
-});
+} );
