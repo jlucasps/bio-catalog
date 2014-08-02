@@ -4,7 +4,7 @@
 requirejs.config( {
     paths: {
 
-        jquery: 'vendor/jquery/jquery.min'
+        jquery: '../components/jquery/dist/jquery.min'
     }
 } );
 
