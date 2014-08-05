@@ -16,6 +16,8 @@ $ cd bio-catalog
 
 ````bash
 # build the app
+$ npm install
+$ bower install
 $ grunt build
 
 # run node server:
