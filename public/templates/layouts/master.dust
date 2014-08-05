@@ -5,9 +5,9 @@
     <title>{+title /}</title>
 </head>
 <body>
-<div id="wrapper">
-    {+body /}
-</div>
-<script data-main="/js/app" src="/components/requirejs/require.js"></script>
+    <div id="wrapper">
+        {+body /}
+    </div>
+    <script data-main="/js/app" src="/components/requirejs/require.js"></script>
 </body>
 </html>
