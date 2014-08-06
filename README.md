@@ -38,31 +38,42 @@ $ npm start
 
 
 ### Available grunt tasks
+<br>
 
+**jshint files**
 ````bash
 $ grunt jshint
 ````
+
+<br>
+**Compile Sass file into CSS files**
 ````bash
 $ grunt sass
 ````
+- It uses [Node-sass](https://github.com/sass/node-sass), a library that provides binding for Node.js to [libsass](https://github.com/sass/libsass)
+- Added option ````outputStyle: 'compressed'```` to compress files
 
+<br>
 ````bash
 $ grunt requirejs
 ````
 
+<br>
 ````bash
 $ grunt i18n
 ````
 
+<br>
 ````bash
 $ grunt copyto
 ````
 
+<br>
 ````bash
 $ grunt mochacli
 ````
 
-
+<br>
 ````bash
 $ grunt build # 'jshint', 'sass', 'requirejs', 'i18n', 'copyto'
 ````
